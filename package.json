@@ -1,0 +1,31 @@
+{
+  "name": "myecommerce",
+  "version": "1.0.0",
+  "description": "This is going to be the backend base for an ecommerce application using node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AchalMudgal/eCommerce-application.git"
+  },
+  "author": "Achal_Mudgal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AchalMudgal/eCommerce-application/issues"
+  },
+  "homepage": "https://github.com/AchalMudgal/eCommerce-application#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
